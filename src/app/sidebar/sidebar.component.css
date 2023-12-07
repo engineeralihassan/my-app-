@@ -1,0 +1,92 @@
+.mainu-container{
+    background-color: transparent;
+    display: flex;
+   
+}
+.manu-count{
+    background-color: rgb(209, 206, 206);
+    border-radius: 50px;
+    width: 30px;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+.manu-count ul{
+    position: relative;
+    left: -35px;
+    top: -10px;
+}
+.manu-count ul li {
+
+}
+.manu-count ul li .text{
+
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+}
+.manu-count ul li .text.active{
+    background-color: green;
+    color: #fff;
+}
+li .submanu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.submanu .li{
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.submanu .li.active{
+    background-color: blue; 
+}
+.manu-links ul{
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+.manu-links ul .text {
+color: black;
+font-size: 16px;
+font-weight: bold;
+
+}
+.manu-links ul li .submanu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.manu-links ul li .submanu .text{
+margin-left: 10px;
+
+
+}
+.manu-links ul li .submanu .text.active{
+    color: blue;
+}
+
+.manu-links .li{
+   
+    margin-top: 15px;
+}
